@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14182a;
+}
+
+/* ----------Navbar---------- */
+.bg-blue {
+    background-color: #1b2039;
+}
+
+/* ----------Banner----------- */
+.record {
+    color: #3bc8e7;
+}
+
+.banner p {
+    color: #606165;
+}
+
+.banner h2 {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.ban-btn {
+    background-color: #3bc8e7 !important;
+    border: none !important;
+    border-radius: 36px;
+    padding: 8px 20px;
+}
+
+.ban-btn:hover {
+    box-shadow: 0px 0px 20px 0px #3bc8e7;
+    transition: all ease-in-out 0.5s;
+}
+
+/* ----------Music List--------- */
+.musiclist {
+    padding: 20px;
+}
+
+.musiclist p {
+    color: white;
+    padding-top: 5px;
+}
+
+.musiclist img {
+    border-radius: 25px;
+}
+
+/*---------- MusicBar----------- */
+.musicbar {
+    color: rgb(255, 255, 255);
+}
+
+.bar-img {
+    border-radius: 8px;
+}
+
+.bar-row {
+    border-bottom: 2px solid #252b4d;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* -----------Gallery----------- */
+.gallery{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.couple-img,.guitar-img{
+    height: 355px;
+}
+
+/* ----------Footer------------  */
+.row h4 {
+    color: #3bc8e7;
+}
+
+.row p {
+    color: white;
+}
+
+.icon-bg {
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+}
+
+/* ----------Media-Query---------- */
+@media all and (max-width:992px) {
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .ban-h,
+    .ban-p,
+    .ban-btns {
+        margin-left: 75px;
+    }
+
+    .gallery-img {
+        height: 200px;
+    }
+
+    .sub-col-row1,
+    .sub-col-row2 {
+        height: 100px;
+    }
+
+    .sub-col-row2 {
+        margin-top: 0px;
+    }
+
+    .store .img1 {
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+
+    .store .img2 {
+        padding-top: 13px;
+    }
+
+    .store .img3 {
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+
+    footer input {
+        margin-top: 15px;
+    }
+
+    .pad-top {
+        padding-top: 20px;
+    }
+
+}
+
+@media all and (max-width:768px) {
+
+    .ban-h,
+    .ban-p,
+    .ban-btns {
+        margin: auto;
+    }
+
+    .musicbar p {
+        padding-left: 10px;
+    }
+
+    .gallery-img {
+        height: 180px;
+        width: 150px;
+    }
+
+    .sub-col-row1,
+    .sub-col-row2 {
+        height: 80px;
+        width: 80px;
+    }
+
+    .sub-col-row2 {
+        margin-top: 20px;
+    }
+
+    .store .img1 {
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+
+    .store .img2 {
+        padding-top: 13px;
+    }
+
+    .store .img3 {
+        padding-top: 5px;
+        padding-left: 4px;
+    }
+
+    footer input {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .gallery {
+        padding: 0px 0;
+    }
+
+    .gallery img {
+        border-radius: 5px;
+    }
+
+    .gallery-img {
+        height: 70px;
+        width: 110%;
+    }
+
+    .guitar-img{
+        height: 150px;
+        width: 100%;
+    }
+    .couple-img{
+        height: 150px;
+        width: 110%;
+    }
+    .sq-img{
+        width: 135%;
+    }
+    center img{
+        width: 80px;
+    }
+    .img2{
+        padding-bottom: 9px;
+    }
+    footer .ban-btn{
+        margin-bottom: 30px;
+    }
+    .banner{
+        padding: 10px;
+    }
+    .musicbar{
+        padding: 10px;
+    }
+    .gallery{
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+}
